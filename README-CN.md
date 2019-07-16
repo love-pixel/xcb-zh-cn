@@ -8,6 +8,12 @@
 
 * 对XCB库感兴趣的编程爱好者
 
+## 文档撰写风格
+
+* 链接均放在文章底部, 以引用方式出现在文章中.
+* 文章中的链接均用空格进行前后填充.
+* 标点符号后均有空格.
+
 
 [link-XCB]: https://xcb.freedesktop.org/
 [link-learnopengl-cn]: https://learnopengl-cn.github.io/
