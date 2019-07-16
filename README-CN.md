@@ -1,4 +1,4 @@
-# <<学习XCB并翻译 [XCB网站][]>>
+# 学习XCB并翻译 [XCB网站][link-XCB]
 
 ## 项目起因
 
@@ -9,5 +9,6 @@
 * 对XCB库感兴趣的编程爱好者
 
 
+[link-XCB]: https://xcb.freedesktop.org/
 [link-learnopengl-cn]: https://learnopengl-cn.github.io/
 [link-GLFW]: https://www.glfw.org/
