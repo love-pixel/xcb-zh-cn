@@ -5,15 +5,13 @@
 
 ## 介绍
 
-> ## Introduction
-
 X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特征] 小占用空间, 延迟隐藏, 直接访问协议, 改进的线程支持 和可扩展性.
+
+> ## Introduction
 
 > The X protocol C-language Binding (XCB) is a replacement for Xlib [featuring][link-Featuring] a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.
 
 ## 新闻
-
-> ## News
 
 2018年3月: [xcb-proto 1.13][link-xcb-proto-1.13] 和 [libxcb 1.13][link-libxcb-1.13] 发布,  除了修复Bug外还支持某些协议的新版本和已完成版本.
 
@@ -30,6 +28,8 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 2012年10月: XCB包的最新版本已经发布, 包括XCB API包的自动生成的页面 - 参阅链接的公告来获取每个包中更改内容的详细信息.
  * [xcb-proto 1.8][link-xcb-proto-1.8] 
  * [libxcb 1.9][link-libxcb-1.9]
+
+> ## News
 
 > March 2018: [xcb-proto 1.13][link-xcb-proto-1.13] and [libxcb 1.13][link-libxcb-1.13] were released. In addition to fixing bugs, this enables new and completed versions of some protocols.
 
@@ -49,19 +49,17 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 
 ## 下载
 
-> ## Download
-
 * 你可以从 [http://xcb.freedesktop.org/dist][link-http://xcb.freedesktop.org/dist] 获取XCB的发布版本.
 
 * 按照 [开发人员指南][link-开发人员指南] 中的说明进行构建, 你也可以使用依赖项的发布版本, 并且不需要git, automake, autoconf, 或者libtool.
+
+> ## Download
 
 > * You can obtain released versions of XCB from [http://xcb.freedesktop.org/dist][link-http://xcb.freedesktop.org/dist].
 
 > * Follow the instructions from the [developer's guide][link-developer's-guide] to build, except that you can use released versions of the dependencies, and you don't need git, automake, autoconf, or libtool.
 
 ## 发展
-
-> ## Development
 
 * 如果你希望在XCB上工作, 请阅读 [开发人员指南][link-开发人员指南] .
 
@@ -70,6 +68,8 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 * IRC( 因特网中继聊天 ): XCB开发人员也在 [IRC][link-IRC-CH] 上闲逛, 偶尔 [开会][link-开会] .
 
 * 当然, 还有很多事 [待做][link-待做] .
+
+> ## Development
 
 > * If you wish to work on XCB, please read the [developer's guide][link-developer's-guide] .
 
@@ -81,9 +81,9 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 
 ## 文档
 
-> ## Documentation
-
 * 这个 [XCB API][link-XCB-API-CN] 以记录在案. 还有一个 [__教程__][link-教程] 和随机的 [笔记][link-笔记] .
+
+> ## Documentation
 
 > * The [XCB API][link-XCB-API] is documented. There is also a [tutorial][link-tutorial] and some random [notes][link-notes] .
 
