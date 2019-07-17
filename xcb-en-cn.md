@@ -13,21 +13,20 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 
 ## 新闻
 
-2018年3月: [xcb-proto 1.13][link-xcb-proto-1.13] 和 [libxcb 1.13][link-libxcb-1.13] 发布,  除了修复Bug外还支持某些协议的新版本和已完成版本.
+* 2018年3月: [xcb-proto 1.13][link-xcb-proto-1.13] 和 [libxcb 1.13][link-libxcb-1.13] 发布,  除了修复Bug外还支持某些协议的新版本和已完成版本.
+* 2016年5月: [xcb-proto 1.12][link-xcb-proto-1.12] 和 [libxcb 1.12][link-libxcb-1.12] 发布.
 
-2016年5月: [xcb-proto 1.12][link-xcb-proto-1.12] 和 [libxcb 1.12][link-libxcb-1.12] 发布.
+* 2015年9月: [libxcb 1.11.1][link-libxcb-1.11.1] 发布. 修复一些与线程相关的问题, 并添加某些API的64位版本.
 
-2015年9月: [libxcb 1.11.1][link-libxcb-1.11.1] 发布. 修复一些与线程相关的问题, 并添加某些API的64位版本.
+* 2014年8月: [xcb-proto 1.11][link-xcb-proto-1.11] 和 [libxcb 1.11][link-libxcb-1.11] 发布. 这再次成为BUG修复版本.
 
-2014年8月: [xcb-proto 1.11][link-xcb-proto-1.11] 和 [libxcb 1.11][link-libxcb-1.11] 发布. 这再次成为BUG修复版本.
+* 2013年12月: [xcb-proto 1.10][link-xcb-proto-1.10] 和 [libxcb 1.10][link-libxcb 1.10] 发布. 这次主要修复了由 libxcb 1.9.2 引入的一些API和ABI的问题. 去链接的公告了解更多详细信息.
 
-2013年12月: [xcb-proto 1.10][link-xcb-proto-1.10] 和 [libxcb 1.10][link-libxcb 1.10] 发布. 这次主要修复了由 libxcb 1.9.2 引入的一些API和ABI的问题. 去链接的公告了解更多详细信息.
+* 2013年5月: [libxcb 1.9.1][link-libxcb 1.9.1] 发布. 修复Python代码让其支持Python3, 并修复 `read_packet()` 函数([CVE-2013-2064][link-CVE-2013-2064])中的整数溢出.
 
-2013年5月: [libxcb 1.9.1][link-libxcb 1.9.1] 发布. 修复Python代码让其支持Python3, 并修复 `read_packet()` 函数([CVE-2013-2064][link-CVE-2013-2064])中的整数溢出.
-
-2012年10月: XCB包的最新版本已经发布, 包括XCB API包的自动生成的页面 - 参阅链接的公告来获取每个包中更改内容的详细信息.
- * [xcb-proto 1.8][link-xcb-proto-1.8] 
- * [libxcb 1.9][link-libxcb-1.9]
+* 2012年10月: XCB包的最新版本已经发布, 包括XCB API包的自动生成的页面 - 参阅链接的公告来获取每个包中更改内容的详细信息.
+ * * [xcb-proto 1.8][link-xcb-proto-1.8] 
+ * * [libxcb 1.9][link-libxcb-1.9]
 
 > ## News
 >
@@ -82,30 +81,40 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 ## 文档
 
 * 这个 [XCB API][link-XCB-API-CN] 以记录在案. 还有一个 [__教程__][link-教程] 和随机的 [笔记][link-笔记] .
+
 * 想要实现更高等级的应用的人可以使用 [xcb-util][link-xcb-util-cn] .
-* 
+
+* XCB 是在 X 核心协议和称为 [XML/XCB][link-XML/XCB-cn] 的常见扩展协议的 XML 描述之上构建的。该协议可用于其他有趣的方式。X 窗口系统协议的文档也可在 [X.org 网站][link-Xorg-web] 上找到,并且可与 XCB 文档结合使用,因为 XCB 功能在很大程度上反映了该协议.
+
+* 为了帮助移植应用程序, 你可以配置 Xlib 让 XCB 作为传输层. 我们称之为 [Xlib/XCB][link-Xlib/XCB-cn]
+* 这里有 [XCB 协议绑定文档][link-XCB-协议绑定文档] .
+
+* XCB 的 Windows (32 位) 端口将很快合并到主代码库中. 你可以在 [这里][link-XCB-Win32-cn] 阅读更多内容.
 
 > ## Documentation
 > * The [XCB API][link-XCB-API] is documented. There is also a [tutorial][link-tutorial] and some random [notes][link-notes] .
 >
 > * People wanting to implement higher level applications can use [xcb-util][link-xcb-util] .
 >
-> * XCB is built atop an XML description of the X core protocol and common extension protocols called [XML/XCB][link-XML/XCB]  . This protocol can be used in other interesting ways. Documentation of the X Window System protocol is also available at X.org's website, and can be used in combination with XCB documentation as XCB functions largely reflect the protocol.
+> * XCB is built atop an XML description of the X core protocol and common extension protocols called [XML/XCB][link-XML/XCB]  . This protocol can be used in other interesting ways. Documentation of the X Window System protocol is also available at [X.org's website][link-Xorg-web] , and can be used in combination with XCB documentation as XCB functions largely reflect the protocol.
 >
-> * To aid in porting applications, you can configure Xlib to use XCB for the transport layer. We call this Xlib/XCB.
+> * To aid in porting applications, you can configure Xlib to use XCB for the transport layer. We call this [Xlib/XCB][link-Xlib/XCB] .
 >
-> * There is automatically-generated documentation for the XCB protocol bindings.
+> * There is automatically-generated [documentation for the XCB protocol bindings][link-XCB-protocol-bindings] .
 >
-> * The Windows (32 bit) port of XCB will be merged into the main code base soon. You can read more on that here.
+> * The Windows (32 bit) port of XCB will be merged into the main code base soon. You can read more on that [here][link-XCB-Win32].
 
 ## 杂项
 
+* [XCB 标志][link-XCB-logo]
+
+* XCB 项目 [历史][link-XCB-history-cn] 悠久,在此期间产生了许多学术 [出版物][link-XCB-publications-cn] . 各种项目都 [采用][link-XCB-adoption-cn] 了 XCB .
 
 > ## Miscellaneous
 >
-> * The XCB logo
+> * [The XCB logo][link-XCB-logo]
 >
-> * The XCB project has a long history, during which it has produced many academic publications. Various projects have adopted XCB.
+> * The XCB project has a long [history][link-XCB-history] , during which it has produced many academic [publications][link-XCB-publications] . Various projects have [adopted][link-XCB-adoption] XCB.
 
 ***
 
@@ -158,14 +167,20 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 [link-xcb-util]: https://xcb.freedesktop.org/XcbUtil/
 [link-XML/XCB-cn]: 011-XML-XCB-cn.md
 [link-XML/XCB]: https://xcb.freedesktop.org/XmlXcb/
-[link-]: 
-[link-]: 
-[link-]: 
-[link-]: 
-[link-]: 
-[link-]: 
-[link-]: 
-[link-]: 
+[link-Xorg-web]: https://www.x.org/releases/X11R7.7/doc/index.html#protocol
+[link-Xlib/Xcb-cn]: 012-Xlib-XCB-cn.md
+[link-Xlib/XCB]: https://xcb.freedesktop.org/XlibXcb/
+[link-XCB-协议绑定文档]: 013-XCB-协议绑定文档.md
+[link-XCB-protocol-bindings]: https://xcb.freedesktop.org/manual/modules.html
+[link-XCB-Win32-cn]: 014-XCB-Win32-cn.md
+[link-XCB-Win32]: https://xcb.freedesktop.org/win32port/
+[link-XCB-logo]: https://xcb.freedesktop.org/KittyLogo/
+[link-XCB-history-cn]: 015-XCB历史.md
+[link-XCB-history]: https://xcb.freedesktop.org/History/
+[link-XCB-publications-cn]: 016-XCB出版物.md
+[link-XCB-publications]: https://xcb.freedesktop.org/Publications/
+[link-XCB-adoption-cn]: 017-XCB使用者.md
+[link-XCB-adoption]: https://xcb.freedesktop.org/adoption/
 [link-]: 
 [link-]: 
 
