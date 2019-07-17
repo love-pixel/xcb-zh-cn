@@ -125,10 +125,6 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 
 
 
-[subpath-教程]: xcb-en-cn/教程
-
-
-
 [link-特征]: 001-特征.md
 [link-Featuring]: https://xcb.freedesktop.org/Features/
 [link-xcb-proto-1.13]: https://lists.freedesktop.org/archives/xcb/2018-March/011090.html
@@ -162,7 +158,7 @@ X协议C语言绑定( XCB ) 是 `Xlib` 的替代品, 具有 [(特征)][link-特�
 [link-XCB-API-CN]: 007-XCB-API-CN.md
 [link-XCB-API]:  https://xcb.freedesktop.org/XcbApi/
 
-[link-教程]: [subpath-教程]/008-教程.md
+[link-教程]: xcb-en-cn/教程/008-教程.md
 
 [link-tutorial]: https://xcb.freedesktop.org/tutorial/
 [link-笔记]: 009-笔记.md
